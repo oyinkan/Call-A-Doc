@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+	#nav-div {
+		position: static;
+	}
+	.consultation {
+		top: 170px;
+        right: 0;
+	}
+	.testdiv p {
+        width: auto;
+    }
+    .docfour {
+	    margin-top: 0;
+	}
+	.pull-right {
+		float: left!important;
+	}
+	.text-right {
+		text-align: left!important;
+	}
+}
+
+@media screen and (min-width: 770px) and (max-width: 1000px) {
+	#nav-div {
+		left: 0;
+	}
+	#doc {
+    	margin-top: 120px;
+	}
+	.docfour {
+	    margin-top: -95px;
+	}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1199px) {
+	#nav-div {
+		left: 15%;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.join-div {
+	    padding-bottom: 70px;
+	}
+}
