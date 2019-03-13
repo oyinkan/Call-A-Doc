@@ -18,10 +18,8 @@ nav {
   position: relative;
   left: 30%;
 }
-.affix {
-  width: 100%;
-  transition: ease 0.5s;
-  background: #ff002a;
+.nav-logo {
+  margin-top: -5px;
 }
 .navbar-nav>li>a {
   font-size: 14px;
@@ -288,6 +286,7 @@ footer p.about {
 .copy {
   font-size: 11px;
   color: #9b9b9c;
+  margin-top: 10px;
 }
 .platform {
   width: 90%;
