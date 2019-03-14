@@ -463,3 +463,12 @@ footer a i {
   background-color: #ffffff;
   padding: 20px;
 }
+.number-div {
+  width: 20px;
+  height: 20px;
+  background-color: #ff002a;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+}
