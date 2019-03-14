@@ -1,13 +1,13 @@
 @media screen and (max-width: 768px) {
-	#nav-div {
-		position: static;
-	}
 	.consultation {
 		top: 170px;
         right: 0;
 	}
 	.testdiv p {
         width: auto;
+    }
+    #doc {
+    	margin-top: 40px;
     }
     .docfour {
 	    margin-top: 0;
@@ -22,27 +22,48 @@
 		margin-left: 0;
 		margin-top: 10px;
 	}
-	#app-div img, footer img {
+	#appdiv img, footer img {
 		margin-bottom: 10px;
 	}
+	.pl-60 {
+        padding-left: 0;
+    }
+    .btn.btn-info.learnmore {
+        margin-top: 10px;
+    }
+    #services-div {
+	    background: none;
+	}
 }
-
+@media screen and (max-width: 900px) {
+    .join, .download {
+        width: auto;
+    }
+    nav .navbar-nav .nav-item .signin {
+		margin-bottom: 10px;
+	}
+	.top-health,
+	.whydiv {
+	    width: auto;
+	}
+}
 @media screen and (min-width: 770px) and (max-width: 1000px) {
-	#nav-div {
-		left: 0;
-	}
-	#doc {
-    	margin-top: 120px;
-	}
 	.docfour {
 	    margin-top: -95px;
 	}
 }
-
-@media screen and (min-width: 1001px) and (max-width: 1199px) {
-	#nav-div {
-		left: 15%;
-	}
+@media screen and (min-width: 770px) and (max-width: 991px) {
+    .pro-div {
+        width: auto;
+    }
+    .btn.btn-info.learnmore {
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 1230px) {
+    .appointment {
+        bottom: auto;
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -50,3 +71,5 @@
 	    padding-bottom: 70px;
 	}
 }
+        
+        
