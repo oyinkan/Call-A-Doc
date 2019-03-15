@@ -668,6 +668,9 @@ footer a i {
   color: #ff153b;
   border-color: #ff153b;
 }
+.mr-5 {
+  margin-right: 5px!important;
+}
 
 /* FAQ */
 .frequently-div {
@@ -741,4 +744,65 @@ footer a i {
   line-height: 1.75;
   letter-spacing: normal;
   color: #353535;
+}
+
+/* Marketplace */
+#diagnostic {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #fff;
+  text-transform: initial;
+}
+.marketplace-div {
+  padding: 50px 0;
+}
+.marketplace {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2.44;
+  color: #f67e7e;
+  margin-bottom: 0;
+}
+.consult {
+  font-size: 36px;
+  line-height: 1.22;
+  color: #4a4a4a;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.certified-div {
+  width: 84%;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 7.5px 23px 0 rgba(3, 6, 52, 0.08);
+  background-color: #fff;
+  margin-top: 10px;
+}
+.certified-div img {
+  margin-bottom: 15px;
+}
+.certified-div h6 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #323c47;
+  margin-bottom: 10px;
+}
+.certified-div p {
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #4a4a4a;
+}
+.partners-div {
+  padding: 20px 0;
+}
+.partners-div p {
+  font-size: 36px;
+  line-height: 1.22;
+  color: #4a4a4a;
+}
+.partners-div img {
+  margin-top: 45px;
 }
