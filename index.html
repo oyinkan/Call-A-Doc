@@ -20,64 +20,65 @@
         }
         .pro-div {
             width: 92%;
-        }            
+        }    
+        footer {
+            padding-top: 50px;
+        }        
     </style>
 </head>
 <body>
-    <div id="homepage">
-        <header class="header-global">
-            <nav class="navbar navbar-fixed-top navbar-expand-md">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img src="images/footer-logo.png" srcset="images/footer-logo.png" class="img-responsive nav-logo" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <i class="fa fa-bars bars"></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav ml-lg-auto">
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link" role="button">
-                                    <span class="nav-link-inner--text active">For doctors</span>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="" class="nav-link" role="button">
-                                    <span class="nav-link-inner--text">Our app</span>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="" class="nav-link" role="button">
-                                    <span class="nav-link-inner--text">Marketplace</span>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="" class="nav-link" role="button">
-                                    <span class="nav-link-inner--text">FAQs</span>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="" class="nav-link" role="button">
-                                    <span class="nav-link-inner--text">Contact</span>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="" class="nav-link" role="button">
-                                    <span class="nav-link-inner--text">About us</span>
-                                </a>
-                            </li>  
-                        </ul>
-                        <ul class="navbar-nav">
-                            <li class="nav-item d-lg-block ml-lg-4">
-                                <a href="" class="btn btn-info signin hvr-shrink" id="signin">Sign in </a>
-                            </li>
-                            <li class="nav-item d-lg-block ml-lg-4">
-                                <a href="" class="btn btn-info signin hvr-shrink" id="signup">Sign up</a>
-                            </li>
-                        </ul>
-                    </div>  
-                </div>
-            </nav>
-        </header>
-    </div>
+    <header class="header-global">
+        <nav class="navbar navbar-fixed-top navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/footer-logo.png" srcset="images/footer-logo.png" class="img-responsive nav-logo" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <i class="fa fa-bars bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link" role="button">
+                                <span class="nav-link-inner--text active">For doctors</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link" role="button">
+                                <span class="nav-link-inner--text">Our app</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link" role="button">
+                                <span class="nav-link-inner--text">Marketplace</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="faq.html" class="nav-link" role="button">
+                                <span class="nav-link-inner--text">FAQs</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="contact.html" class="nav-link" role="button">
+                                <span class="nav-link-inner--text">Contact</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link" role="button">
+                                <span class="nav-link-inner--text">About us</span>
+                            </a>
+                        </li>  
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item d-lg-block ml-lg-4">
+                            <a href="" class="btn btn-info signin hvr-shrink" id="signin">Sign in </a>
+                        </li>
+                        <li class="nav-item d-lg-block ml-lg-4">
+                            <a href="" class="btn btn-info signin hvr-shrink" id="signup">Sign up</a>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+    </header>
     
     <main>
         <div id="doc">
@@ -127,19 +128,183 @@
                 </div>
             </div>
         </div>
-        <!-- <div id="howitworks-div">
+        <div id="howitworks-div">
             <div class="container-fluid">
-                <p>How Cal-A-Doc works</p>
-                <p>Getting the care you need is easy. It’s like a regular office visit, only better, faster and more convenient!</p>
+                <p class="how-it-works">How Cal-A-Doc works</p>
+                <p class="getting">Getting the care you need is easy. It’s like a regular office visit, only better, faster and more convenient!</p>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="how-div">
                             <div class="number-div">1</div>
+                            <div class="text-center">
+                                <img src="images/history.png" class="img-fluid" alt="icon">
+                                <h6>Complete your<br> Medical history</h6>
+                                <hr>
+                                <p>You are required to complete your medical history online, by phone, or by faxing a paper form prior to requesting a consultation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="how-div">
+                            <div class="number-div">2</div>
+                            <div class="text-center">
+                                <img src="images/call.png" class="img-fluid" alt="icon">
+                                <h6>Request a <br>phone or video call</h6>
+                                <hr>
+                                <p>Simply log on to your account or call Cal-A-Doc, 24 hours a day, 7 days a week, to request a telephone or video consultation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="how-div">
+                            <div class="number-div">3</div>
+                            <div class="text-center">
+                                <img src="images/speak.png" class="img-fluid" alt="icon">
+                                <h6>Speak with a doctor <br>about your issue</h6>
+                                <hr>
+                                <p>A certified physician reviews your medical history and provides a consultation over the phone or through video, just like an visit.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+        <div class="access-div">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5">
+                        <div>
+                            <h5>Access thousands <br>of <span>trusted doctors</span> instantly. Never wait to feel better again</h5>
+                            <a class="btn btn-info get-the-app" href="">Get the app</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-8">
+                                <div class="ml-50">
+                                    <img src="images/iphone-home.png" class="img-fluid" alt="i-phone">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-4">
+                                <div class="mt-90">
+                                    <div>
+                                        <div class="dot"></div>
+                                        <div class="ml-25">
+                                            <h6>Consult a doctor</h6>
+                                            <p>Consult Doctors via audio/video chat without the hassle of visiting a hospital</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-45">
+                                        <div class="dot"></div>
+                                        <div class="ml-25">
+                                            <h6>Book Appointments</h6>
+                                            <p>Book an in-person appointment with a Doctor to visit at clinic. Simple and Easy</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-45">
+                                        <div class="dot"></div>
+                                        <div class="ml-25">
+                                            <h6>Get Medical Services</h6>
+                                            <p>You can easily buy drugs, get home service for your various medical tests</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobileclinic-div">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5">
+                        <div>
+                            <img src="images/bus.png" class="img-fluid" alt="Clinic bus">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
+                        <div>
+                            <h5>All-In-One Mobile Clinic</h5>
+                            <p>Cal-A-Doc Mobile Clinic was conceived and designed by medical professionals with extensive field experience working with disaster relief and health services. As a true turn-key solution, our clinics are ready within minutes to be used. </p>
+                            <div>
+                                <img src="images/icon.svg" class="img-fluid" alt="icon">
+                                <span>Cutting Edge Medical Equipments</span>
+                            </div>
+                            <div>
+                                <img src="images/icon.svg" class="img-fluid" alt="icon">
+                                <span>Highly customizable</span>
+                            </div>
+                            <div>
+                                <img src="images/icon.svg" class="img-fluid" alt="icon">
+                                <span>Fully Automated Payment System</span>
+                            </div>
+                            <div>
+                                <img src="images/icon.svg" class="img-fluid" alt="icon">
+                                <span>24/7 Reponse Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subscribe-div">
+            
+        </div>
+        <div class="blog-div">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <div>
+                                    <img src="images/secure.png" class="img-fluid" alt="secure">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div>
+                                    <h6>Secure your life</h6>
+                                    <p>Evolution efficient international countries Jane Addams…</p>
+                                    <span><i class="fa fa-clock"></i> 21 October, 2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <div>
+                                    <img src="images/achieve.png" class="img-fluid" alt="secure">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div>
+                                    <h6>Achieved Unlocked</h6>
+                                    <p>Evolution efficient international countries Jane Addams…</p>
+                                    <span><i class="fa fa-clock"></i> 21 October, 2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <div>
+                                    <img src="images/assurance.png" class="img-fluid" alt="secure">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div>
+                                    <h6>Assurance hit the market</h6>
+                                    <p>Evolution efficient international countries Jane Addams…</p>
+                                    <span><i class="fa fa-clock"></i> 21 October, 2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>>
+                </div>
+            </div>
+        </div>
     </main>
     
 
@@ -151,10 +316,10 @@
                     <div class="footer-foot">
                         <p class="about">ABOUT</p>
                         <p><a href="">For Doctors</a></p>
-                        <p><a href="">FAQ</a></p>
+                        <p><a href="faq.html">FAQ</a></p>
                         <p><a href="">Marketplace</a></p>
                         <p><a href="">Our App</a></p>
-                        <p><a href="">Contact Us</a></p>
+                        <p><a href="contact.html">Contact Us</a></p>
                         <p><a href="">Privacy Policy</a></p>
                         <p><a href="">Terms of use</a></p>
                     </div>

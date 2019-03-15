@@ -37,6 +37,9 @@ nav,
   font-weight: 500;
   color: #ff002a;
 }
+.nav-logo {
+  margin-left: -15px;
+}
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
@@ -401,7 +404,7 @@ footer a i {
   background-position: right;
   background-repeat: no-repeat;
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 .why-us {
   font-size: 18px;
@@ -455,20 +458,287 @@ footer a i {
 #howitworks-div {
   background: #ff002a;
   padding: 50px 0;
+  position: relative;
+  z-index: -999;
+  margin-top: -300px;
+  padding-top: 300px;
 }
 .how-div {
-  width: 184px;
-  height: 215px;
+  width: 75%;
   border-radius: 8px;
   background-color: #ffffff;
   padding: 20px;
 }
 .number-div {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   background-color: #ff002a;
-  font-size: 9px;
+  font-size: 18px;
+  border-radius: 50%;
+  padding-top: 6px;
+  text-align: center;
   font-weight: 500;
   letter-spacing: -0.1px;
   color: #ffffff;
+}
+.how-div img {
+  margin-bottom: 20px;
+}
+.how-div h6 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #100e0b;
+}
+.how-div hr {
+  background-color: #ff002a;
+  width: 50px;
+  height: 1.2px;
+}
+.how-div p {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #85878c;
+}
+.how-it-works {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.getting {
+  width: 37%;
+  margin-top: -20px;
+  margin-bottom: 60px;
+  opacity: 0.68;
+  font-size: 18px;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.access-div {
+  background: #fff;
+  padding-top: 40px;
+}
+.access-div h5 {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.26;
+  letter-spacing: normal;
+  color: #100e0b;
+  margin-bottom: 30px;
+  margin-top: 110px;
+}
+.access-div h5 span {
+  font-weight: 600;
+  color: #ff002a;
+}
+.access-div a {
+  width: 200px;
+  height: 50px;
+  border-radius: 34.4px;
+  background-color: #ff002a;
+  border: none;
+  font-size: 14.4px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 13px;
+}
+.ml-50 {
+  margin-left: 50px;
+}
+.dot {
+  width: 6.4px;
+  height: 6.4px;
+  background-color: #ff002a;
+  border-radius: 50%;
+  float: left;
+  margin-top: 7px;
+}
+.access-div h6 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  color: #100e0b;
+}
+.access-div p {
+  width: 58%;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #85878c;
+}
+.ml-25 {
+  margin-left: 25px;
+}
+.mt-90 {
+  margin-top: 90px;
+}
+.mt-45 {
+  margin-top: 45px;
+}
+.mobileclinic-div,
+.blog-div {
+  background-image: linear-gradient(to bottom, #ffffff, #f2f4f6);
+  padding: 60px 0;
+}
+.subscribe-div {
+  background: url(./../images/.svg);
+
+}
+
+
+/*contact page */
+.contact-header {
+  background: url(./../images/contact.png);
+  padding: 60px 0 100px 0;
+  background-repeat: no-repeat;
+  margin-top: 68px;
+}
+.contact-header p {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.contact-header h6 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #fff;
+}
+.address-div {
+  padding: 60px 0 30px 0;
+  color: #000;
+}
+.address-div p,.address-div h6 {
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: normal;
+}
+.address-div label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+}
+.address-div h6 {
+  font-weight: 600;
+}
+.black {
+  color: #000;
+}
+.address-div input {
+  border-radius: 50px;
+  border: 1px solid #eaeaea;
+  padding-top: 0;
+  height: 50px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.address-div textarea {
+  border-radius: 3px;
+  border: 0.5px solid #eaeaea;
+}
+.address-div button {
+  width: 225px;
+  height: 62px;
+  background-color: #ff153b;
+  border-color: #ff153b;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.44;
+  color: #fff;
+  margin-top: 15px;
+  padding-top: 2px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 15px #ccc;
+}
+.address-div button:hover {
+  background: transparent;
+  color: #ff153b;
+  border-color: #ff153b;
+}
+
+/* FAQ */
+.frequently-div {
+  margin-top: 68px;
+  padding: 50px 0;
+}
+.frequently-div h5 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #0c1015;
+  padding-bottom: 120px;
+}
+.faq-image {
+  background-image: linear-gradient(to top, #ffffff, #f2f4f6);
+}
+.frequently-div img {
+  margin-left: -25px;
+  /*margin-top: 25px;*/
+  padding-top: 70px;
+  position: relative;
+  top: -150px;
+  margin-bottom: -110px;
+}
+.questions {
+  border-bottom: 0.5px solid rgba(53, 53, 53, 0.1);
+}
+.faq,
+.faq-number {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.39;
+  letter-spacing: 0.4px;
+  color: #353535;
+}
+.faq-number {
+  font-weight: normal;
+  letter-spacing: normal;
+  text-align: right;
+  padding-top: 5px;
+}
+.panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+}
+.panel-default > .panel-heading .panel-title{
+  padding: 0;
+  border-radius: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+.panel-title > a {
+  display: block;
+  padding: 15px 0;
+  color: #353535;
+  text-decoration: none;
+}
+.more-less {
+  float: right;
+  color: #212121;
+  padding-top: 10px;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  width: 80%;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #353535;
 }
