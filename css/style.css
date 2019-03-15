@@ -806,3 +806,57 @@ footer a i {
 .partners-div img {
   margin-top: 45px;
 }
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-tabs .nav-link {
+  background: #f67e7e;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin-right: 5px;
+  padding: .25rem 1rem;
+}
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active {
+  font-weight: 600;
+  color: #2c2e32;
+  border: 0;
+  padding: .75rem 1rem;
+  padding-bottom: 10px;
+}
+.tab-content {
+  background: #fff;
+}
+.search-form label {
+  opacity: 0.3;
+  font-size: 12px;
+  color: #2c2e32;
+  margin-bottom: 0;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.search-form select {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2c2e32;
+  border: none;
+  padding-left: 0;
+  margin-top: -10px;
+}
+.search-form button {
+  border-radius: 4px;
+  box-shadow: 0 2px 5.5px 0 rgba(255, 70, 49, 0.5);
+  background-image: linear-gradient(to left, #ff002a, #ff143b);
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: right;
+}
+.search-form .form-group {
+  margin-bottom: 0.5rem;
+}
