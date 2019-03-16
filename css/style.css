@@ -647,7 +647,9 @@ footer a i {
 .blog-div .card-header {
   padding: 0;
 }
-
+.blog-div a:hover {
+  text-decoration: none;
+}
 /*contact page */
 .contact-header {
   background: url(./../images/contact.png);
