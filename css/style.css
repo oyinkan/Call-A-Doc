@@ -614,15 +614,35 @@ footer a i {
 .blog-div {
   background-image: linear-gradient(to bottom, #ffffff, #f2f4f6);
   padding: 60px 0;
+  color: #353535;
 }
 .blog-div h5 {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.56;
   text-align: center;
-  color: #353535;
 }
-
+.blog-div h6 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.1;
+}
+.blog-div p {
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.blog-div span {
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 500;
+}
+.blog-div .card {
+  width: 90%;
+}
+.blog-div .card-header {
+  padding: 0;
+}
 
 /*contact page */
 .contact-header {
