@@ -626,19 +626,23 @@ footer a i {
   font-size: 20px;
   font-weight: 500;
   line-height: 2.1;
+  color: #353535;
 }
 .blog-div p {
   opacity: 0.5;
   font-size: 16px;
   line-height: 1.63;
+  color: #353535;
 }
 .blog-div span {
   opacity: 0.5;
   font-size: 16px;
   font-weight: 500;
+  color: #353535;
 }
 .blog-div .card {
   width: 90%;
+  margin-top: 40px;
 }
 .blog-div .card-header {
   padding: 0;
