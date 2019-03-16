@@ -583,14 +583,37 @@ footer a i {
 .mt-45 {
   margin-top: 45px;
 }
-.mobileclinic-div,
+.mobileclinic-div {
+  background-image: linear-gradient(to top, #ffffff, #f2f4f6);
+  padding: 80px 0;
+  color: #0c1015;
+}
+.mobileclinic-div h5 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.41;
+  width: 90%;
+}
+.mobileclinic-div p {
+  font-size: 16px;
+  line-height: 1.63;
+  margin-top: 15px;
+}
+.-Value {
+  width: 147.5px;
+  height: 12.5px;
+  font-family: InterUI;
+  font-size: 9px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #0c1015;
+}
 .blog-div {
   background-image: linear-gradient(to bottom, #ffffff, #f2f4f6);
   padding: 60px 0;
-}
-.subscribe-div {
-  background: url(./../images/.svg);
-
 }
 
 
@@ -962,4 +985,123 @@ footer a i {
   line-height: 1.63;
   width: 79%;
   margin: auto;
+}
+
+/*app.html*/
+#access {
+  margin-top: 70px;
+}
+.mt-35 {
+  margin-top: 35px;
+  padding-bottom: 305px;
+}
+#feature-div {
+  padding: 40px 0;
+  color: #212121;
+  text-align: center;
+}
+.features {
+  opacity: 0.3;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+#feature-div .consult {
+  color: #212121;
+}
+.booking-div {
+  margin-top: 60px;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+.booking-div h6 {
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  margin-top: 20px;
+}
+.booking-div p {
+  line-height: 1.57;
+  color: #9fa3a7;
+  width: 74%;
+  margin: auto;
+}
+.howitworks {
+  background-image: linear-gradient(to left, #f8f8f8, #ffffff);
+  margin-top: 60px;
+  color: #212121;
+}
+.messages-div {
+  width: 65%;
+  margin: auto;
+  margin-top: 120px;
+}
+.iphone-image {
+  margin-bottom: -45px;
+  margin-top: -10px;
+}
+.howitworks h6 {
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: 0.1px;
+  margin-top: 10px;
+}
+.howitworks p {
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+}
+.howitworks a {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #fc977b;
+  position: relative;
+  top: 10px;
+}
+#howitworks {
+  background-image: linear-gradient(to left, #f8f8f8, #ffffff);
+}
+.newsletter-div {
+  background: url(./../images/newsletter.svg);
+  padding: 40px 0;
+  margin-top: 40px;
+}
+.newsletter-div h6 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: #fff;
+}
+.newsletter-div p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: -0.1px;
+  color: #fff;
+}
+.newsletter-div input,
+.newsletter-div button {
+  height: 52px;
+  border: none;
+}
+.newsletter-div input {
+  border-radius: 38px;
+  background-color: #fff;
+  font-size: 11.6px;
+  color: #1b1916;
+  padding-left: 20px;
+}
+.newsletter-div button {
+  background-color: #182e53;
+  border-radius: 43px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+.newsletter-form {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
 }

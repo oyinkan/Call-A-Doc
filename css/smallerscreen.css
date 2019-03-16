@@ -1,9 +1,15 @@
+@media screen and (max-width: 630px) {
+	.mt-35 {
+		padding-bottom: 0;
+	}
+} 
 @media screen and (max-width: 768px) {
 	.consultation {
 		top: 170px;
         right: 0;
 	}
-	.testdiv p {
+	.testdiv p,
+	.newsletter-form {
         width: auto;
     }
     #doc {
@@ -38,6 +44,7 @@
 	    margin-left: 0;
 	}
 }
+
 @media screen and (max-width: 900px) {
     .join, .download {
         width: auto;
@@ -48,6 +55,9 @@
 	.top-health,
 	.whydiv {
 	    width: auto;
+	}
+	.howitworks a {
+		position: static;
 	}
 }
 @media screen and (min-width: 770px) and (max-width: 1000px) {
@@ -76,6 +86,9 @@
 	#about-img {
 	    left: auto;
 	}
+	.howitworks a {
+		position: static;
+	}
 }
-        
+       
         
