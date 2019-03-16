@@ -860,3 +860,106 @@ footer a i {
 .search-form .form-group {
   margin-bottom: 0.5rem;
 }
+
+/*about */
+#about-img {
+  position: relative;
+  top: 75px;
+  left: 75%;
+  margin-top: -100px;
+  animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+.mission-div {
+  padding: 50px 0;
+  color: #0c1015;
+}
+.our-mission {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.44;
+}
+.improve {
+  width: 95%;
+  font-size: 28px;
+  line-height: 1.71;
+}
+.whoweare {
+  background-color: #ff002a;
+  color: #fff;
+  padding: 10px 0 50px 0;
+}
+.whoweare h5 {
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 1.29;
+  padding-top: 70px;
+}
+.whoweare p {
+  font-size: 16px;
+  line-height: 1.63;
+  width: 70%;
+}
+.whoweare span {
+  opacity: 0.5;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  display: block;
+  margin-bottom: 10px;
+}
+.whoweare h6 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+.team-div{
+  background-image: linear-gradient(to bottom, #ffffff, #f2f4f6);
+  padding: 60px 0;
+  color: #000;
+}
+.team {
+  font-size: 48px;
+  line-height: 1.29;
+}
+.team-line {
+  width: 60px;
+  background-image: linear-gradient(to bottom, #ffffff, #f2f4f6);
+  float: left;
+  position: relative;
+  top: 28px;
+}
+.unique {
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: normal;
+  float: left;
+  margin-left: 80px;
+  margin-top: -30px;
+  width: 74%;
+}
+.teamdiv{
+  color: #0c1015;
+}
+.teamdiv h6 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.42; 
+  margin-top: 15px;
+}
+.teamdiv span {
+  opacity: 0.3;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.teamdiv p {
+  font-size: 16px;
+  line-height: 1.63;
+  width: 79%;
+  margin: auto;
+}
