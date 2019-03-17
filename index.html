@@ -13,6 +13,8 @@
     <link href="css/smallerscreen.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css"/>
     <style>
         .container-fluid {
             width: 90%;
@@ -24,6 +26,11 @@
         footer {
             padding-top: 50px;
         }        
+        #why-div {
+            position: relative;
+            z-index: 1000;
+            padding-top: 120px;
+        }
     </style>
 </head>
 <body>
@@ -132,9 +139,9 @@
             <div class="container-fluid">
                 <p class="how-it-works">How Cal-A-Doc works</p>
                 <p class="getting">Getting the care you need is easy. It’s like a regular office visit, only better, faster and more convenient!</p>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="how-div hvr-grow">
+                <div class="rio-promos" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
+                    <div class="hvr-grow">
+                        <div class="how-div">
                             <div class="number-div">1</div>
                             <div class="text-center">
                                 <img src="images/history.png" class="img-fluid" alt="icon">
@@ -144,8 +151,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="how-div hvr-grow">
+                    <div class="hvr-grow">
+                        <div class="how-div">
                             <div class="number-div">2</div>
                             <div class="text-center">
                                 <img src="images/call.png" class="img-fluid" alt="icon">
@@ -155,8 +162,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="how-div hvr-grow">
+                    <div class="hvr-grow">
+                        <div class="how-div">
                             <div class="number-div">3</div>
                             <div class="text-center">
                                 <img src="images/speak.png" class="img-fluid" alt="icon">
@@ -166,26 +173,37 @@
                             </div>
                         </div>
                     </div>
+                    <div class="hvr-grow">
+                        <div class="how-div">
+                            <div class="number-div">4</div>
+                            <div class="text-center">
+                                <img src="images/call.png" class="img-fluid" alt="icon">
+                                <h6>Request a <br>phone or video call</h6>
+                                <hr>
+                                <p>Simply log on to your account or call Cal-A-Doc, 24 hours a day, 7 days a week, to request a telephone or video consultation.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="access-div">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-4 col-md-5">
+                    <div class="col-lg-4 col-md-4">
                         <div>
                             <h5>Access thousands <br>of <span>trusted doctors</span> instantly. Never wait to feel better again</h5>
-                            <a class="btn btn-info get-the-app" href="">Get the app</a>
+                            <a class="btn btn-info get-the-app hvr-shrink" href="">Get the app</a>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-7">
+                    <div class="col-lg-8 col-md-8">
                         <div class="row">
-                            <div class="col-lg-7 col-md-8">
+                            <div class="col-lg-7 col-md-7">
                                 <div class="ml-50">
                                     <img src="images/iphone-home.png" class="img-fluid" alt="i-phone">
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-4">
+                            <div class="col-lg-5 col-md-5">
                                 <div class="mt-90">
                                     <div>
                                         <div class="dot"></div>
@@ -267,10 +285,13 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
-                                <button class="btn btn-info">Subscribe Now</button>
+                                <button class="btn btn-info hvr-shrink">Subscribe Now</button>
                             </div>
                         </div>
                     </form>
+                </div>
+                <div class="iframe-embed">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hMB-52swcQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -385,8 +406,38 @@
     <script src="js/argon.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        jQuery(document).ready(function($) {
+      $('.rio-promos').slick({
+        infinite: true,
+        // speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        // autoplay: true,
+        // autoplaySpeed: 2000,
+        arrows: true,
+        responsive: [{
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+           breakpoint: 600,
+           settings: {
+              arrows: true,
+              slidesToShow: 1,
+              slidesToScroll: 1
+           }
+        }]
+    });
+});
     </script>
 </body>
 </html>

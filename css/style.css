@@ -279,8 +279,8 @@ nav .navbar-nav .nav-item .signin {
   margin-top: 15px;
 }
 #appdiv {
-  background: url(./../images/iphone.png);
-  margin-top: 25px;
+  background: url(./../images/iphone-back.png);
+  margin-top: 50px;
   color: #fff;
   padding: 40px;
   background-size: cover;
@@ -458,13 +458,11 @@ footer a i {
 #howitworks-div {
   background: #ff002a;
   padding: 50px 0;
-  position: relative;
-  z-index: -999;
   margin-top: -300px;
   padding-top: 300px;
 }
 .how-div {
-  width: 75%;
+  width: 85%;
   border-radius: 8px;
   background-color: #ffffff;
   padding: 20px;
@@ -484,6 +482,21 @@ footer a i {
 .how-div img {
   margin-bottom: 20px;
 }
+.slick-slide img {
+  display: inline-block!important;
+}
+.slick-prev,
+.slick-next {
+  top: -30px!important;
+}
+.slick-prev {
+  left: auto!important;
+  right: 100px!important;
+}
+.slick-prev:before, 
+.slick-next:before {
+  opacity: 1!important;
+}
 .how-div h6 {
   font-size: 20px;
   font-weight: 500;
@@ -501,6 +514,8 @@ footer a i {
   line-height: 1.43;
   letter-spacing: normal;
   color: #85878c;
+  width: 80%;
+  margin: auto;
 }
 .how-it-works {
   margin-top: 40px;
@@ -547,8 +562,12 @@ footer a i {
   line-height: normal;
   letter-spacing: -0.1px;
   text-align: center;
-  color: #ffffff;
-  padding-top: 13px;
+  color: #fff;
+  padding-top: 15px;
+}
+.access-div a:hover {
+  background-color: #ff002a;
+  color: #fff;
 }
 .ml-50 {
   margin-left: 50px;
@@ -615,6 +634,7 @@ footer a i {
   background-image: linear-gradient(to bottom, #ffffff, #f2f4f6);
   padding: 60px 0;
   color: #353535;
+  padding-top: 100px;
 }
 .blog-div h5 {
   font-size: 36px;
@@ -1133,8 +1153,23 @@ footer a i {
   color: #fff;
   width: 100%;
 }
+.newsletter-div button:hover {
+  background-color: #182e53;
+  color: #fff;
+}
 .newsletter-form {
   width: 70%;
   margin: auto;
   margin-top: 50px;
+}
+.iframe-embed {
+  width: 90%;
+  margin: auto;
+  height: 500px;
+  position: relative;
+  top: 70px;
+}
+.iframe-embed iframe {
+  height: 100%;
+  width: 100%;
 }

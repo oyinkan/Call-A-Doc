@@ -2,6 +2,22 @@
 	.mt-35 {
 		padding-bottom: 0;
 	}
+	.how-div {
+        width: 100%;
+    }
+    .iframe-embed {
+		height: 250px;
+	}
+}
+@media screen (min-width: 631px) and (max-width: 900px) {
+	.how-div {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 800px) {
+	#howitworks-div {
+        padding-top: 150px;
+    }
 } 
 @media screen and (max-width: 768px) {
 	.consultation {
@@ -43,6 +59,12 @@
 	.nav-logo {
 	    margin-left: 0;
 	}
+	.getting {
+        width: 70%;
+    }
+    .iframe-embed {
+		height: 490px;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -71,6 +93,12 @@
     }
     .btn.btn-info.learnmore {
         margin-top: 10px;
+    }
+    .access-div p {
+        width: auto;
+    }
+    .access-div a {
+    	margin-bottom: 30px;
     }
 }
 @media screen and (min-width: 770px) and (max-width: 1230px) {
