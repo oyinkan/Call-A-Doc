@@ -636,6 +636,9 @@ footer a i {
   color: #353535;
   padding-top: 100px;
 }
+.mb-10 {
+  margin-bottom: 10px;
+}
 .blog-div h5 {
   font-size: 36px;
   font-weight: 500;
