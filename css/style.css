@@ -941,6 +941,12 @@ footer a i {
 }
 
 /*about */
+.elderly-patient {
+  background: #fff;
+  border-left: 6px solid #ff002a;
+  padding: 15px;
+  display: -webkit-inline-box;
+}
 #about-img {
   position: relative;
   top: 75px;
