@@ -1,7 +1,4 @@
 @media screen and (max-width: 630px) {
-	.mt-35 {
-		padding-bottom: 0;
-	}
 	.how-div {
         width: 100%;
     }
@@ -15,6 +12,9 @@
     }
 }
 @media screen and (max-width: 800px) {
+	.mt-35 {
+		padding-bottom: 0;
+	}
 	#howitworks-div {
         padding-top: 150px;
     }
